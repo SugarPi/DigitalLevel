@@ -12,6 +12,8 @@
 * **Boost Converter** MT3608
 * **LiPo Battery** 3.7V 1000mAh 10x20x50mm
 * **Perfboard** Platform to connect components
+* **Jumper Cables** wries to connect components
+* **Resistors** 4x 220Ω | 2x 10kΩ
 
 ## Installation
 
