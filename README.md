@@ -8,11 +8,19 @@
 * **Display:** SSD1306 OLED Display (I2C)
 * **Indicators:** 4x Directional LEDs
 * **Buttons:** 2x Push buttons (Zero & Reset)
+* **Charging Module** TP4056
+* **Boost Converter** MT3608
+* **LiPo Battery** 3.7V 1000mAh 10*20*50mm
+* **Perfboard** Platform to connect components
 
 ## Installation
 
 ### 1. Hardware Setup
-Assemble the components according to the provided schematic diagram in the repository.
+Solder the components on the perfboard according to the provided schematic diagram in the repository.
+
+**Critical:** for the device to work properly, you must use a flat edge and a multimeter to adjust the silver
+knob on the side of the MT3608 booster converter to 5 VOLTS
+
 
 ### 2. Software Setup
 1. Open the project file in the **Arduino IDE**.
@@ -26,4 +34,5 @@ Assemble the components according to the provided schematic diagram in the repos
 ## Usage
 
 * **"Zero" Button:** Sets the current angle as the relative baseline (0°). Once set, the 4 directional LEDs will dynamically light up to guide you back to this exact angle.
-* **"Reset" Button:** Power cycles the device to turn it On or Off.
+* **"On/Off" Button:** Power cycles the device to turn it On or Off.
+* **Charging** Connect a power source via USB-C to charge the LiPo battery
