@@ -10,7 +10,7 @@
 * **Buttons:** 2x Push buttons (Zero & Reset)
 * **Charging Module** TP4056
 * **Boost Converter** MT3608
-* **LiPo Battery** 3.7V 1000mAh 10*20*50mm
+* **LiPo Battery** 3.7V 1000mAh 10x20x50mm
 * **Perfboard** Platform to connect components
 
 ## Installation
