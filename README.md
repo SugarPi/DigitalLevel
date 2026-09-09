@@ -38,3 +38,7 @@ knob on the side of the MT3608 booster converter to 5 VOLTS
 * **"Zero" Button:** Sets the current angle as the relative baseline (0°). Once set, the 4 directional LEDs will dynamically light up to guide you back to this exact angle.
 * **"On/Off" Button:** Power cycles the device to turn it On or Off.
 * **Charging** Connect a power source via USB-C to charge the LiPo battery
+
+<img width="4032" height="2268" alt="IMG_1713" src="https://github.com/user-attachments/assets/2c1ba1b5-c1e9-40ea-8558-4ab190898a5f" />
+<img width="2268" height="4032" alt="IMG_1714" src="https://github.com/user-attachments/assets/18da5447-7bf3-4c5a-8b81-535de881594f" />
+
